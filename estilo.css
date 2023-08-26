@@ -1,0 +1,35 @@
+body {
+    background-color: purple;
+}
+
+.vazio {
+    display: inline-block;
+    height: 160px;
+    width: 160px;
+    margin: 10px;
+    border: 3px plum solid;
+    background-color: black;
+}
+
+.preenchido {
+    background-image: url("./olho.png");
+    position: relative;
+    height: 150px;
+    width: 150px;
+    top: 5px;
+    left: 5px;
+    cursor: pointer;
+}
+
+.arrastando {
+    border: solid #ccc 4px;
+}
+
+.em-cima {
+    background-color: #f4f4f4;
+    border-style: dashed;
+}
+
+.invisivel {
+    display: none;
+}
